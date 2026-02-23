@@ -1,0 +1,8 @@
+/* frontend/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f3f4f6; /* A nice light gray background (Tailwind gray-100) */
+}
