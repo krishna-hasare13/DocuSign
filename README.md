@@ -117,17 +117,18 @@ Open your browser and navigate to: `http://localhost:5173`
 
 ## 🌐 Live Deployment
 
-The application is deployed on **Vercel** for the frontend:
+The application is deployed on **Vercel** for the frontend and **Render** for the backend:
 
 - **Frontend URL:** https://docu-sign-ajuf.vercel.app
-- **Backend:** Hosted separately (configure your backend server URL in environment variables)
+- **Backend URL:** https://docusign-rjgn.onrender.com
 
 ### Deployment Steps:
 1. Push your code to GitHub
-2. Connect your repository to Vercel
+2. Connect frontend repository to Vercel
 3. Configure environment variables in Vercel dashboard
 4. Frontend will auto-deploy on push to main branch
-5. Deploy backend separately (e.g., Heroku, Railway, AWS, etc.)
+5. Connect backend repository to Render and configure environment variables
+6. Backend will auto-deploy on push to main branch
 
 ---
 
